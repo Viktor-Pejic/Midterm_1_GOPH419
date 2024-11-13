@@ -1,0 +1,7 @@
+The parameter contributing the most to the the error in T 
+is D, the orbital distance from Earth.
+This is due to the fact that the relative error in D is much
+greater than the relative errors of the other 
+parameters by an order of 10. This is reflected 
+when calculating its relative error contribution to 
+T with it contributing approximately 98% of the error.

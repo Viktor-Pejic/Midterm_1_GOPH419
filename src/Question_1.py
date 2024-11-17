@@ -53,7 +53,7 @@ def main():
           f"Contribution from L (error in L): {(dT_L/delta_T):.5f} K\n"
           f"Contribution from a (error in a): {(dT_a/delta_T):.5f} K\n"
           f"Contribution from D (error in D): {(dT_D/delta_T):.5f} K\n"
-          f"Relative error of T = {delta_T / expected_T:.5f}")
+          f"Relative error of T = {abs(delta_T / expected_T):.5f}")
 
 
 
